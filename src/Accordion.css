@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#fcf5f5, #eff4fd);
+    background-image: url(https://images.pexels.com/photos/5940721/pexels-photo-5940721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.main-div {
+    width: 30vw;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+        rgba(17, 17, 26, 0.1)0px 0px 8px;
+}
+h1 {
+    text-align: center;
+    font-family: "Better", serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    color: limegreen;
+}
+h3 {
+    margin-left: 30px;
+    font-family: "mate sc", serif;
+    color: #303243;
+    font-family: "raleway", sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: 100px;
+    font-size: 16px;
+}
+.main-heading p {
+    cursor: pointer;
+    border-radius: 10%;
+    box-shadow: rgba(17, 17, 26, 0.1)0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1)0px 16px 56px;
+    background: #fff;
+    margin: 10px;
+    padding-bottom: 30px;
+    font-size: 20px;
+
+
+}
+.answer {
+    padding: 30px 20px 40px 20px;
+    font-family: "Releway", sans-serif;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-weight: 400;
+    line-height: 1.7;
+    background: #fcf5f5;
+    color: rgb(40, 37, 53);
+    
+    
+
+}
